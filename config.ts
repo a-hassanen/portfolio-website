@@ -23,15 +23,15 @@ export const PORTFOLIO_DATA_URL: string = "https://raw.githubusercontent.com/you
 export const ADMIN_CONFIG: AdminConfig = {
   // Credentials to log into the `/admin` panel
   credentials: {
-    username: "admin",
-    password: "password", // CHANGE THIS!
+    username: "",
+    password: "",
   },
   
   // GitHub repository details where your `portfolioData.json` is stored.
   // This is required for the admin panel to save your changes.
   github: {
-    owner: "your-username",       // Your GitHub username
-    repo: "my-portfolio-data",    // The name of your PRIVATE repository
+    owner: "a-hassanen",       // Your GitHub username
+    repo: "portfolio-webiste",    // The name of your PRIVATE repository
     branch: "main",               // The branch where your data is stored
   },
 };
