@@ -1,0 +1,70 @@
+{
+  "personalInfo": {
+    "name": "Alex Doe",
+    "title": "Senior Frontend Engineer",
+    "profileImage": "src/assets/profile.png",
+    "bio": "I'm a passionate developer with a knack for creating beautiful, functional, and accessible web experiences. I love tackling complex problems and turning ideas into reality. This portfolio is a showcase of my journey in tech.",
+    "email": "alex.doe@example.com",
+    "github": "https://github.com/example",
+    "linkedin": "https://linkedin.com/in/example"
+  },
+  "experience": [
+    {
+      "company": "Tech Solutions Inc.",
+      "title": "Senior Frontend Engineer",
+      "period": "Jan 2020 - Present",
+      "description": "Led the development of a new user-facing analytics dashboard using React and D3.js. Mentored junior developers and improved code quality across the team by implementing a new style guide."
+    },
+    {
+      "company": "Web Innovators",
+      "title": "Frontend Developer",
+      "period": "Jun 2017 - Dec 2019",
+      "description": "Developed and maintained responsive websites for various clients using HTML, CSS, and JavaScript. Collaborated with designers to ensure pixel-perfect implementation of UIs."
+    }
+  ],
+  "skills": [
+    "React",
+    "TypeScript",
+    "JavaScript (ES6+)",
+    "Node.js",
+    "HTML5 & CSS3",
+    "Webpack",
+    "Vite",
+    "Git & GitHub",
+    "UI/UX Design",
+    "Accessibility",
+    "Jest & RTL"
+  ],
+  "projects": [
+    {
+      "name": "Project Alpha",
+      "description": "A full-stack web application for project management, built with React and Node.js.",
+      "link": "https://github.com/example/project-alpha"
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "This very portfolio, built to be easily configurable and deployable.",
+      "link": "https://github.com/example/portfolio"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Advanced React - Scrimba",
+      "link": "https://scrimba.com/learn/advancedreact"
+    },
+    {
+      "name": "UI/UX Design Specialization - Coursera",
+      "link": "https://www.coursera.org/specializations/ui-ux-design"
+    }
+  ],
+  "badges": [
+    {
+      "name": "GitHub Arctic Code Vault Contributor",
+      "imageUrl": "https://github.githubassets.com/images/modules/profile/badge--acv-2020.png"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "imageUrl": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+    }
+  ]
+}

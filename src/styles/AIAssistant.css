@@ -1,0 +1,66 @@
+/* AI Assistant Styles */
+.ai-assistant {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.ai-chat-box {
+  height: 300px;
+  overflow-y: auto;
+  padding: 1rem;
+  background: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.ai-message {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  max-width: 80%;
+  line-height: 1.4;
+}
+.ai-message.user {
+  background: var(--accent-color);
+  color: #fff;
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+}
+.ai-message.model {
+  background: var(--secondary-color);
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+}
+.ai-message.model pre {
+  background-color: #0d1117;
+  padding: 0.5rem;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.ai-input-area {
+  display: flex;
+  border-top: 1px solid var(--border-color);
+}
+.ai-input-area input {
+  flex-grow: 1;
+  padding: 1rem;
+  border: none;
+  background: var(--primary-color);
+  color: var(--font-color);
+  font-size: 1rem;
+}
+.ai-input-area button {
+  border-radius: 0;
+  border-left: 1px solid var(--border-color);
+}
+.confirmation-card {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  border: 1px solid var(--accent-color);
+}
+.confirmation-card button {
+  margin-right: 0.5rem;
+}
