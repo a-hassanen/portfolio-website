@@ -1,0 +1,89 @@
+/* Editor view styles */
+.editor-view {
+  padding: 2rem;
+  background-color: var(--primary-color);
+}
+
+.editor-view h1, .editor-view h2, .editor-view h3 {
+  margin-top: 0;
+}
+
+.editor-section {
+  background: var(--secondary-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.editor-form-group {
+  margin-bottom: 1rem;
+}
+
+.editor-form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.editor-form-group input, .editor-form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  color: var(--font-color);
+  font-size: 1rem;
+}
+
+.editor-form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.editor-item {
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.remove-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.generated-json-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.generated-json-header h2 {
+    margin-bottom: 0;
+}
+
+.generated-json {
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 500px;
+    overflow-y: auto;
+    font-family: monospace;
+}

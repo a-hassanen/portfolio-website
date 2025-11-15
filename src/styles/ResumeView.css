@@ -1,0 +1,38 @@
+.resume-view {
+    padding: 2rem 0;
+}
+
+.resume-actions {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.resume-embed {
+    width: 100%;
+    height: 800px;
+    border: 1px solid var(--border-color);
+    padding: 0; 
+    overflow: hidden; 
+}
+
+.resume-embed iframe {
+    border: none;
+}
+
+.resume-error {
+    border-color: #dc3545;
+    color: #e0e0e0;
+    background-color: #492328;
+    padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .resume-embed {
+        height: 600px;
+    }
+    .resume-actions {
+        justify-content: center;
+    }
+}

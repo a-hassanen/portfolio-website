@@ -1,0 +1,30 @@
+/* Badges Section */
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1.5rem;
+}
+
+.badge-item-link {
+  text-decoration: none;
+  color: inherit;
+}
+.badge-item-link:hover {
+  text-decoration: none;
+}
+
+.badge-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.badge-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 50%;
+}
