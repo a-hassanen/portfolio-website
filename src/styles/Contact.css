@@ -1,2 +1,62 @@
-.social-links { margin-top: 1rem; }
-.social-links a { margin: 0 0.75rem; font-size: 1.1rem; }
+/* Contact Section */
+.social-links {
+  margin-top: 1rem;
+  font-family: sans-serif;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* General contact button */
+.contact-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  min-width: 150px;
+}
+
+/* Icon inside button */
+.contact-button .icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1); /* ensures icon is white */
+}
+
+/* Specific button colors */
+.contact-button.email { background-color: #0072c6; }
+.contact-button.github { background-color: #333; }
+.contact-button.linkedin { background-color: #0a66c2; }
+.contact-button.whatsapp { background-color: #25D366; color: #fff; }
+.contact-button.phone { background-color: #4caf50; }
+.contact-button.credly { background-color: #0e76a8; }
+.contact-button.google-skills { background-color: #4285f4; }
+.contact-button.coursera { background-color: #2a73cc; }
+
+/* Hover effects */
+.contact-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .contact-grid {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .contact-button {
+    justify-content: flex-start;
+    width: 100%;
+  }
+}

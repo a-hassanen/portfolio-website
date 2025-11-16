@@ -6,7 +6,14 @@
     "bio": "I'm a passionate developer with a knack for creating beautiful, functional, and accessible web experiences. I love tackling complex problems and turning ideas into reality. This portfolio is a showcase of my journey in tech.",
     "email": "alex.doe@example.com",
     "github": "https://github.com/example",
-    "linkedin": "https://linkedin.com/in/example"
+    "linkedin": "https://linkedin.com/in/example",
+    "whatsapp1": "1234567890",
+    "whatsapp2": "0987654321",
+    "phone1": "1234567890",
+    "phone2": "0987654321",
+    "credly": "https://www.credly.com/users/username",
+    "googleSkills": "https://www.google.com/profiles/skills/username",
+    "coursera": "https://www.coursera.org/user/username"
   },
   "experience": [
     {
