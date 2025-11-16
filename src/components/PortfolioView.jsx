@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header.jsx';
 import Hero from './Hero.jsx';
+import AboutMe from './AboutMe.jsx';
 import Experience from './Experience.jsx';
 import Education from './Education.jsx';
 import Skills from './Skills.jsx';
@@ -16,6 +17,7 @@ const PortfolioView = ({ data }) => (
     <Header name={data.personalInfo.name} showEditorLink={false} />
     <main className="app-container">
       <Hero personalInfo={data.personalInfo} />
+      <AboutMe aboutme={data.aboutme} />
       <Experience items={data.experience} />
       <Education items={data.education} />
       <Skills items={data.skills} />

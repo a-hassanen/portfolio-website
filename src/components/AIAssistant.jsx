@@ -15,6 +15,7 @@ const AIAssistant = ({ onAddItem }) => {
             try {
                 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
                 const schema = {
+                    aboutme: { description: 'string' }, 
                     experience: { company: 'string', title: 'string', period: 'string', description: 'string' },
                     education: { institution: 'string', degree: 'string', period: 'string', description: 'string' },
                     projects: { name: 'string', description: 'string', link: 'string' },
@@ -81,12 +82,28 @@ const AIAssistant = ({ onAddItem }) => {
         }
     };
     
+    // const handleConfirm = () => {
+    //     if (confirmation) {
+    //         onAddItem(confirmation.section, confirmation.data);
+    //         setConfirmation(null);
+    //         setMessages(prev => [...prev, { role: 'model', text: "Great! I've added that to the editor. You can see the new item in the form below. What's next?" }]);
+    //     }
+    // };
     const handleConfirm = () => {
-        if (confirmation) {
+        if (!confirmation) return;
+
+        if (confirmation.section === "aboutme") {
+            // Direct overwrite instead of adding items
+            onAddItem("aboutme", confirmation.data);
+        } else {
             onAddItem(confirmation.section, confirmation.data);
-            setConfirmation(null);
-            setMessages(prev => [...prev, { role: 'model', text: "Great! I've added that to the editor. You can see the new item in the form below. What's next?" }]);
         }
+
+        setConfirmation(null);
+        setMessages(prev => [
+            ...prev,
+            { role: 'model', text: "Great! I've updated that section. What would you like to do next?" }
+        ]);
     };
 
     return (

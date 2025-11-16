@@ -21,6 +21,15 @@ const EditorView = ({ initialData }) => {
         setData(prev => ({ ...prev, [section]: items }));
     };
 
+        // --- About Me Handler ---
+    const handleAboutMeChange = (e) => {
+        const { name, value } = e.target;
+        setData(prev => ({
+            ...prev,
+            aboutme: { ...prev.aboutme, [name]: value }
+        }));
+    };
+
     const handleAddItem = (section) => {
         let newItem;
         if (section === 'experience') newItem = { company: '', title: '', period: '', description: '' };
@@ -38,21 +47,35 @@ const EditorView = ({ initialData }) => {
     };
     
     const handleAddItemFromAI = (section, newItemData) => {
-        if (section === 'certificates') {
+        if (section === 'aboutme') {
+            setData(prev => ({ ...prev, aboutme: newItemData }));
+        } 
+        else if (section === 'certificates') {
             const { category, ...certData } = newItemData;
+
             setData(prev => {
                 const certsCopy = { ...prev.certificates };
+
                 if (certsCopy[category]) {
                     certsCopy[category] = [...certsCopy[category], certData];
                 } else {
                     certsCopy[category] = [certData];
                 }
+
                 return { ...prev, certificates: certsCopy };
             });
-        } else if (data[section]) {
-            setData(prev => ({ ...prev, [section]: [...prev[section], newItemData] }));
+        } 
+        else {
+            setData(prev => {
+                if (!prev[section]) return prev; // safety fallback
+                return {
+                    ...prev,
+                    [section]: [...prev[section], newItemData]
+                };
+            });
         }
     };
+
 
     // --- Skills Handlers ---
     const handleSkillCategoryChange = (category, e) => {
@@ -211,6 +234,22 @@ const EditorView = ({ initialData }) => {
                             </div>
                         );
                     })}
+                </div>
+
+                {/* About Me */}
+                <div className="editor-section">
+                    <h2>About Me</h2>
+                    <div className="editor-form-group">
+                        <label htmlFor="aboutme-description">Description</label>
+                        <textarea
+                            id="aboutme-description"
+                            name="description"
+                            value={data.aboutme?.description || ''}
+                            onChange={handleAboutMeChange}
+                            placeholder="Write your professional summary..."
+                            rows={6}
+                        />
+                    </div>
                 </div>
 
                 {renderEditableSection('experience', [
