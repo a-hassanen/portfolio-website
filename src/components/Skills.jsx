@@ -30,7 +30,7 @@ const Skills = () => {
         </div>
       </div>
 
-      {Object.entries(skills).map(([category, skillList]) => {
+      {Object.entries(skills).map(([category, skillList], catIndex) => {
         const filteredSkills = skillList.filter((skill) =>
           skill.toLowerCase().includes(searchTerm)
         );
@@ -40,35 +40,67 @@ const Skills = () => {
           <div key={category} className="skills-category">
             <h3>{category}</h3>
             <ul>
-              {filteredSkills.map((skill) => {
+              {filteredSkills.map((skill, skillIndex) => {
                 const skillBadges = getBadgesForSkill(skill);
                 const isExpanded = expandedSkill === skill;
+                const skillId = `skill-${catIndex}-${skillIndex}`;
 
                 return (
-                  <li key={skill} className="skill-item">
+                  <li
+                    key={skillId}
+                    className={`skill-item ${skillBadges.length > 0 ? 'expandable' : ''}`}
+                    id={skillId}
+                  >
                     <div
                       className="skill-header"
-                      onClick={() => toggleSkill(skill)}
+                      onClick={() => skillBadges.length > 0 && toggleSkill(skill)}
                     >
                       <span>{skill}</span>
-                      {/* Chevron arrow */}
-                      <span className={`chevron ${isExpanded ? 'expanded' : ''}`}>
-                        ▼
-                      </span>
-                    </div>
                       {skillBadges.length > 0 && (
-                       <div><span className="badge-count">
-                        {skillBadges.length} source(s) of skill evidence
-                        </span> </div>
+                        <span className={`chevron ${isExpanded ? 'expanded' : ''}`}>
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 512 512"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M239 401c9.4 9.4 24.6 9.4 33.9 0L465 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-175 175L81 175c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9L239 401z"/>
+                          </svg>
+                        </span>
                       )}
-                    
+                    </div>
+
+                    {skillBadges.length > 0 && (
+                      <div>
+                        <span className="badge-count">
+                          {skillBadges.length} source(s) of skill evidence
+                        </span>
+                      </div>
+                    )}
+
                     {isExpanded && skillBadges.length > 0 && (
                       <div className="skill-badges">
-                        {skillBadges.map((badge) => (
-                          <span key={badge.name} className="badge">
-                            {badge.name}
-                          </span>
-                        ))}
+                        {skillBadges.map((badge) => {
+                          const badgeId = `badge-${badge.name.replace(/\s+/g, '-')}`;
+                          return (
+                            <span
+                              key={badge.name}
+                              className="badge"
+                              onClick={() => {
+                                const element = document.getElementById(badgeId);
+                                if (element) {
+                                  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                  element.classList.add('highlight');
+                                  setTimeout(() => element.classList.remove('highlight'), 2000);
+                                }
+                              }}
+                              style={{ cursor: 'pointer' }}
+                            >
+                              {badge.name}
+                            </span>
+                          );
+                        })}
                       </div>
                     )}
                   </li>
@@ -79,8 +111,9 @@ const Skills = () => {
         );
       })}
 
-      {Object.values(skills).every((skillList) => 
-        skillList.filter((skill) => skill.toLowerCase().includes(searchTerm)).length === 0
+      {Object.values(skills).every((skillList) =>
+        skillList.filter((skill) => skill.toLowerCase().includes(searchTerm))
+          .length === 0
       ) && searchTerm && <p>No skills match your search.</p>}
     </section>
   );

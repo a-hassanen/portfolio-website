@@ -58,22 +58,26 @@
   margin-bottom: 0.5rem;
   cursor: pointer;
 }
-
-
-
-.skill-badges {
-  margin-top: 0.25rem;
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+.skill-item:hover {
+  background-color: rgb(12, 79, 102)
 }
 
-.badge {
-  background-color: var(--accent-color);
-  color: #000;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
+.skill-badges .badge {
+  background-color: #ff6b00;  /* accent color */
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;        /* pill shape */
   font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.skill-badges .badge:hover {
+  background-color: #ff924c;  /* lighter shade on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 
 .badge-count {
@@ -90,7 +94,7 @@
 
 .chevron {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 8px;
   transition: transform 0.3s ease;
 }
 

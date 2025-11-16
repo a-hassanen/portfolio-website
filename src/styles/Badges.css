@@ -28,3 +28,9 @@
   background: #fff;
   border-radius: 50%;
 }
+
+.badge-item-link.highlight .badge-item {
+  box-shadow: 0 0 10px 3px rgba(255, 107, 0, 0.8);
+  border: 2px solid #ff6b00;
+  transition: box-shadow 0.3s, border 0.3s;
+}
