@@ -202,7 +202,7 @@ const EditorView = ({ initialData }) => {
             ))}
           </div>
         ))}
-        <button className="button" onClick={() => handleAddItem(section)}>Add {section.slice(0, -1)}</button>
+        <button className="button" onClick={() => handleAddItem(section)}>Add {section.slice(0, -10)}</button>
       </div>
     );
 

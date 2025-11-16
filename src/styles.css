@@ -21,6 +21,26 @@
     line-height: 1.6;
     scroll-behavior: smooth;
   }
+
+  body.light {
+  --bg-color: #f0f0f0;
+  --primary-color: #fff;
+  --secondary-color: #e0e0e0;
+  --font-color: #222;
+  --accent-color: #007bff;
+  --accent-hover: #0056b3;
+  --border-color: #ccc;
+  }
+
+  body.dark {
+    --bg-color: #121212;
+    --primary-color: #1a1a1a;
+    --secondary-color: #242424;
+    --font-color: #e0e0e0;
+    --accent-color: #007bff;
+    --accent-hover: #0056b3;
+    --border-color: #333;
+  }
   
   #root {
     display: flex;
@@ -36,7 +56,7 @@
   }
 
   h1, h2, h3 {
-    color: #fff;
+    color: var(--font-color);
     margin-bottom: 1rem;
   }
   

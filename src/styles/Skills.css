@@ -23,7 +23,9 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    mix-blend-mode: difference;
   }
 
   .skills-category {
@@ -59,7 +61,7 @@
   cursor: pointer;
 }
 .skill-item:hover {
-  background-color: rgb(12, 79, 102)
+  background-color: #5d95c4
 }
 
 .skill-badges .badge {

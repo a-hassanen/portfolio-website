@@ -36,6 +36,6 @@
 .about-text {
   font-size: 1.15rem;
   line-height: 1.8;
-  color: var(--text-light);
+  color: var(--font-color);
   white-space: pre-line;
 }

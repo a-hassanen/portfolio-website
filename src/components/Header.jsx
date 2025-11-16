@@ -1,46 +1,72 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Header.css';
 
 const Header = ({ name, showEditorLink }) => {
-  // helper to update hash without letting the browser jump immediately
-  const handleNavClick = (e, hash) => {
+  const [activeItem, setActiveItem] = useState('aboutme');
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const menuItems = [
+    { id: 'aboutme', label: 'About Me' },
+    { id: 'experience', label: 'Experience' },
+    { id: 'education', label: 'Education' },
+    { id: 'skills', label: 'Skills' },
+    { id: 'projects', label: 'Projects' },
+    { id: 'resume', label: 'Resume' },
+    { id: 'certificates', label: 'Certificates' },
+    { id: 'badges', label: 'Badges' },
+    { id: 'contact', label: 'Contact' },
+  ];
+
+  const handleNavClick = (e, id) => {
     e.preventDefault();
-    // If same hash, still trigger hashchange by resetting to '' then setting hash
-    if (window.location.hash === `#${hash}`) {
-      // small hack to force hashchange when clicking the same link twice
-      history.replaceState(null, '', ' ');
-      window.location.hash = hash;
-    } else {
-      window.location.hash = hash;
+    setActiveItem(id);
+    const element = document.getElementById(id);
+    if (element) {
+      const header = document.querySelector('.header');
+      const offset = header ? header.offsetHeight : 0;
+      window.scrollTo({
+        top: element.offsetTop - offset,
+        behavior: 'smooth'
+      });
     }
   };
 
+  // --- Dark mode effect ---
+  useEffect(() => {
+    document.body.className = isDarkMode ? 'dark' : 'light';
+  }, [isDarkMode]);
+
   return (
-    <header className="header">
-      <nav>
-        <a href="#top" className="logo" onClick={(e) => handleNavClick(e, '')}>{name}</a>
-
-        <div className="nav-links">
-          <a href="#experience" onClick={(e) => handleNavClick(e, 'experience')}>Experience</a>
-          <a href="#education" onClick={(e) => handleNavClick(e, 'education')}>Education</a>
-          <a href="#skills" onClick={(e) => handleNavClick(e, 'skills')}>Skills</a>
-          <a href="#projects" onClick={(e) => handleNavClick(e, 'projects')}>Projects</a>
-          <a href="#resume" onClick={(e) => handleNavClick(e, 'resume')}>Resume</a>
-          <a href="#certificates" onClick={(e) => handleNavClick(e, 'certificates')}>Certificates</a>
-          <a href="#badges" onClick={(e) => handleNavClick(e, 'badges')}>Badges</a>
-          <a href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>Contact</a>
-
+    <header className={`header ${isDarkMode ? 'dark' : ''}`}>
+      <div className="header-container">
+        <div className="logo">{name}</div>
+        <nav className="nav-links">
+          {menuItems.map(item => (
+            <button
+              key={item.id}
+              onClick={(e) => handleNavClick(e, item.id)}
+              className={`nav-button ${activeItem === item.id ? 'active' : ''}`}
+            >
+              {item.label}
+            </button>
+          ))}
           {showEditorLink && (
-            <a
-              href="#edit"
-              className="button"
+            <button
               onClick={(e) => handleNavClick(e, 'edit')}
+              className="nav-button editor"
             >
               Editor
-            </a>
+            </button>
           )}
-        </div>
-      </nav>
+          {/* Dark Mode Toggle */}
+          <button
+            onClick={() => setIsDarkMode(!isDarkMode)}
+            className="nav-button dark-toggle"
+          >
+            {isDarkMode ? "🌞" : "🌙"}
+        </button>
+        </nav>
+      </div>
     </header>
   );
 };
