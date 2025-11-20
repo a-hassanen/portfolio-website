@@ -7,8 +7,13 @@ import portfolioData from '../data/portfolioData.json';
 const ResumeView = () => {
   // Dynamically use Vite's base URL
   const base = import.meta.env.BASE_URL; 
-  const pdfUrl = `${base}assets/resumes/Ahmed Hassanen.pdf`;
-  const wordUrl = `${base}assets/resumes/Ahmed Hassanen.docx`;
+  // Resolve video path correctly in both DEV and GitHub Pages production
+  const pdfUrl = portfolioData.files.pdfUrl
+      ? `${base}${portfolioData.files.pdfUrl.replace(/^\//, '')}`
+      : '';
+  const wordUrl = portfolioData.files.wordUrl
+      ? `${base}${portfolioData.files.wordUrl.replace(/^\//, '')}`
+      : '';
 
   return (
     <>
