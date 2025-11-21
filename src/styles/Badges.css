@@ -27,6 +27,7 @@
 
 .badge-item.card{
   height: 100%;
+  border: 2px solid var(--border-color);
 }
 
 .badgename{
