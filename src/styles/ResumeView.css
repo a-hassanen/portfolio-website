@@ -56,6 +56,6 @@
    ----------------------------------------- */
 @media (max-width: 768px) {
     .resume-iframe {
-        height: 500px;
+        height: 500px !important;
     }
 }
