@@ -13,7 +13,7 @@ const AIAssistant = ({ onAddItem }) => {
     React.useEffect(() => {
         const initChat = async () => {
             try {
-                const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+                const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
                 const schema = {
                     aboutme: { description: 'string' }, 
                     experience: { company: 'string', title: 'string', period: 'string', description: 'string' },

@@ -46,11 +46,22 @@ export default function useScrollHeader() {
         const headerHeight = document.querySelector(".header")?.offsetHeight || 0;
         const sections = document.querySelectorAll("section[id]");
         let currentActive = "";
+
         sections.forEach((section) => {
-          const top = section.offsetTop - headerHeight - 50; // small buffer
+          const top = section.offsetTop - headerHeight - 50;
           if (currentY >= top) currentActive = section.id;
         });
+
+        // Special case: last section when reaching bottom of page
+        const isAtBottom =
+          window.innerHeight + currentY >= document.body.scrollHeight - 5;
+
+        if (isAtBottom && sections.length > 0) {
+          currentActive = sections[sections.length - 1].id;
+        }
+
         setActiveItem(currentActive || "aboutme");
+                
 
         // Update lastY every frame
         lastY.current = currentY;
