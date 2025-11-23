@@ -137,9 +137,13 @@
     cursor: not-allowed;
   }
 
-  img, video, iframe {
+  img, video {
         max-width: 100%;
         height: auto;
+    }
+
+  iframe {
+        max-width: 100%;
     }
 
   /* Animation for sections */
