@@ -6,9 +6,14 @@ const Hero = ({ personalInfo }) => {
     const [ref, isVisible] = useIntersectionObserver({ threshold: 0.1 });
 
     // Resolve image path correctly in both DEV and GitHub Pages production
-    const imageUrl = personalInfo.profileImage
-        ? `${import.meta.env.BASE_URL}${personalInfo.profileImage.replace(/^\//, '')}`
-        : '';
+    // const imageUrl = personalInfo.profileImage
+    //     ? `${import.meta.env.BASE_URL}${personalInfo.profileImage.replace(/^\//, '')}`
+    //     : '';
+    // Dynamically use Vite's base URL
+    const base = import.meta.env.BASE_URL;
+    const imageUrl = portfolioData.profileImage
+    ? base + portfolioData.profileImage.replace(/^\//, "")
+    : "";
 
     return (
         <section ref={ref} className={`hero fade-in-section ${isVisible ? 'is-visible' : ''}`}>
