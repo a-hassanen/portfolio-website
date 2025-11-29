@@ -95,7 +95,8 @@
       "GoLang",
       "HTML",
       "CSS",
-      "JavaScript"
+      "JavaScript",
+      "Application Security", "Cross-site scripting (XSS)", "Kali Linux", "OpenSSL", "SonarQube", "SQL Injection", "Flask", "Nmap", "Open Web Application Security Project (OWASP) ZAP", "Snyk"
     ],
     "Cloud Platforms": [
       "Amazon Web Services (AWS)",
@@ -414,7 +415,7 @@
         "imageUrl": "https://images.credly.com/size/680x680/images/9a0255eb-a47d-4f3a-9611-243bfe3eb9e4/image.png",
         "link": "https://www.credly.com/badges/5928b8cd-5f95-4524-8302-15c1d93451a6/public_url",
         "provider": "IBM",
-        "dateObtained": "November 13, 2025",
+        "dateObtained": "November 2025",
         "skills": "Collaboration, Git, GitHub, Software Development, Code Repositories, Distributed Version Control, Gitlab, Git Lab Branch Workflow, Merge, Open Source, Pull Request (PR), Social Coding"
       },
       {
@@ -427,38 +428,30 @@
       },
       {
         "name": "Introduction to Test Driven Development",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=HTML/CSS/JS+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Coursera",
-        "dateObtained": "November 13, 2025",
-        "skills": ""
-      },
-      {
-        "name": "Security for Professionals and DevOps Professionals",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=HTML/CSS/JS+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Coursera",
-        "dateObtained": "November 13, 2025",
-        "skills": ""
+        "imageUrl": "https://images.credly.com/size/680x680/images/63ed678c-4f4d-435d-b3af-e8d0c94627a2/image.png",
+        "link": "https://www.credly.com/badges/b4cf4d14-fa88-44d7-843f-bdf859e86899/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Python, Software Testing, Test Cases, Assertions, Automated testing, Factories, Fakes, Mocks, Pyunit, Test Coverage, Test-Driven Development, Test Fixtures"
       }
     ],
 
     "Cloud, Containers & Microservices": [
       {
         "name": "Containers & Kubernetes Essentials",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=HTML/CSS/JS+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Coursera",
-        "dateObtained": "November 13, 2025",
-        "skills": ""
+        "imageUrl": "https://images.credly.com/size/680x680/images/fadae326-142d-4855-a42f-f0b07e65eac1/image.png",
+        "link": "https://www.credly.com/badges/78129c3a-ce38-4219-bc71-8335bc46eaa1/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "IBM Cloud, Kubernetes, Cloud, Container"
       },
       {
         "name": "Application Development using Microservices and Serverless",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=HTML/CSS/JS+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Coursera",
-        "dateObtained": "November 13, 2025",
-        "skills": ""
+        "imageUrl": "https://images.credly.com/size/680x680/images/eaaf4a45-b93e-41d1-91d3-d331c6210314/image.png",
+        "link": "https://www.credly.com/badges/b857e515-92de-43fc-9172-ba45eac8386e/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Docker, GraphQL, Microservices, Postman, Container, cURL, Flask, REST, Serverless Computing, Swagger"
       }
     ],
 
@@ -506,19 +499,19 @@
     "Web Development & Design": [
       {
         "name": "Introduction to HTML, CSS, & JavaScript",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=HTML/CSS/JS+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Coursera",
-        "dateObtained": "January 2020",
-        "skills": "Web Development, HTML, CSS, JavaScript"
+        "imageUrl": "https://images.credly.com/size/680x680/images/09490195-093b-4c9f-9f31-bdc434e66a23/Coursera_20Introduction_20to_20HTML_20CSS_20and_20JavaScript.png",
+        "link": "https://www.credly.com/badges/9e172dda-c8ea-4656-98f5-b4af9dfd416d/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Cascading Style Sheets (CSS), HTML5, Web Development, HTML, JavaScript, React (Web Framework), Web "
       },
       {
         "name": "Front-end Development with React V2",
-        "imageUrl": "https://placehold.co/150x150/000/fff?text=HTML/CSS/JS+Badge",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Coursera",
-        "dateObtained": "November 15, 2025",
-        "skills": "Web Development"
+        "imageUrl": "https://images.credly.com/size/680x680/images/e747147a-9300-4795-8b38-704a133bed88/Coursera_20Front_20end_20Development_20with_20React_20V2.png",
+        "link": "https://www.credly.com/badges/9c6123c7-5ed1-4002-a4a0-8333c1d9517f/public_url",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Application States, Class Components, Component Composition, Component Lifecycles, Component States, CRA, Custom Hooks, Data Binding, Fetch, Forms, Front-end Development, Front-end Frameworks, Function Components, Hooks, JavaScript, JSX, Props, React, React ToolKit, Redux, saga, Side Effects, Thunk, UseEffect Hook, User Interfaces, UseState Hook, Virtual Dom, Vite"
       }
     ],
     "Recognition & Awards": [
