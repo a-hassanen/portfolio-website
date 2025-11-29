@@ -320,6 +320,22 @@
         "skills": "Cloud Computing, GCP (Google Cloud Platform)"
       },
       {
+        "name": "Scrum Certification + Scrum Master + Agile Scrum Training",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/C560BAQHPon7g_XjJpA/company-logo_200_200/company-logo_200_200/0/1631371916365?e=1766016000&v=beta&t=hASkVeaO4V0sYT73SBxIBg3XTYKiFqDPwKJAdjltqTc",
+        "link": "https://learn.eccouncil.org/certificate/87b369f8-8477-4c2b-81bd-13faee7562fc",
+        "provider": "EC-Council",
+        "dateObtained": "November 2025",
+        "skills": "Scrum, Agile Methodologies, Project Management, Continuous Integration and Continuous Delivery (CI/CD), Strategic Planning, ITIL Certified, JavaScript, Teamwork, Requirements Analysis"
+      },
+      {
+        "name": "Jira Agile Project Management + Jira Administration + Jira Agile",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/C560BAQHPon7g_XjJpA/company-logo_200_200/company-logo_200_200/0/1631371916365?e=1766016000&v=beta&t=hASkVeaO4V0sYT73SBxIBg3XTYKiFqDPwKJAdjltqTc",
+        "link": "https://learn.eccouncil.org/certificate/cbe6c31a-aed1-4350-b0a5-dd432f71148d",
+        "provider": "EC-Council",
+        "dateObtained": "November 2025",
+        "skills": "Jira Administration, Automation, Atlassian Suite, Project Management, Jira Service Management (JSM)"
+      },
+      {
         "name": "Google Cloud Computing Foundations: Cloud Infrastructure",
         "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
         "link": "https://www.skills.google/profile/badges",
@@ -433,6 +449,14 @@
         "provider": "IBM",
         "dateObtained": "November 2025",
         "skills": "Python, Software Testing, Test Cases, Assertions, Automated testing, Factories, Fakes, Mocks, Pyunit, Test Coverage, Test-Driven Development, Test Fixtures"
+      },
+      {
+        "name": "Introduction to Software Engineering",
+        "imageUrl": "https://images.credly.com/size/680x680/images/63ed678c-4f4d-435d-b3af-e8d0c94627a2/image.png",
+        "link": "https://www.coursera.org/account/accomplishments/verify/4I1VQ8P36E7K",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Continuous Integration and Continuous Delivery (CI/CD), Python (Programming Language), Shell Scripting, JavaScript, Bash, DevOps, Scripting"
       }
     ],
 
@@ -463,13 +487,61 @@
         "provider": "IBM",
         "dateObtained": "November 2025",
         "skills": "Data Science, Python, Artificial Intelligence"
+      },
+      {
+        "name": "Developing AI Applications with Python and Flask",
+        "imageUrl": "https://images.credly.com/size/680x680/images/33ed2910-9750-4613-aa2a-590e845c6edb/image.png",
+        "link": "https://www.coursera.org/account/accomplishments/verify/7QPLV0O5HER3",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Development Environment, Server Side, Flask (Web Framework), IBM Cloud, Unit Testing, Restful API, Programming Principles, Code Review, Web Applications, Application Deployment, Artificial Intelligence, Python Programming"
       }
     ],
 
     "Atlassian Technical Expertise": [
       {
+        "name": "Confluence Quickstart: Cloud Badge",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/34249/large/uni-credential-atlassianuniversitybadge-generic.png?1649104194&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8zNDI0OS9sYXJnZS91bmktY3JlZGVudGlhbC1hdGxhc3NpYW51bml2ZXJzaXR5YmFkZ2UtZ2VuZXJpYy5wbmc~MTY0OTEwNDE5NCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NDQ3OTEzMH19fV19&Signature=V2vU6eLKxKNG~FdukkW82fKUqzsL8s5lXOCtJpFN0drqNgy7mo4zJuUkBgRgfU3DBcNWz-UHHcFt01BRsn6GVtX6w3u-rS9sgsncWc9KK6SePde4v2Os3dlUYsjVc1reXIk9U8rzpUuVjQJLshfWl8K3ilZ6xmEd-LVHh4iKV4ux13Y24Csrbvr20hNRGcMLwWkUxbx7wwWv4q6AzhgvYnQquP62rY6lMatsDOXEp~tf1rMAd4yIO9latmylh7RhH66pPznkiZYqENb-sbwqrea1m7357oCnsdP9PBImsqmeE8aOaICwG2fVoRRQuKqvljqc1c2Cw1TRk9W-6nQUPA__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/F2QQXffMHi2Bjah5ZwnE6cYy",
+        "provider": "Atlassian",
+        "dateObtained": "May 2022",
+        "skills": "Cloud Computing IaaS, System Administration, Atlassian Suite"
+      },
+      {
+        "name": "Configuring and Troubleshooting Permissions in Confluence",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/cdByGky4cXcWmM3JzNvfcNFB",
+        "provider": "Atlassian",
+        "dateObtained": "April 2022",
+        "skills": "System Administration, Security Monitoring, Atlassian Suite"
+      },
+      {
+        "name": "Confluence Fundamentals Badge",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28811/large/uni-credential-emblem-jirafundamentals__281_29.png?1625167569&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODgxMS9sYXJnZS91bmktY3JlZGVudGlhbC1lbWJsZW0tamlyYWZ1bmRhbWVudGFsc19fMjgxXzI5LnBuZz8xNjI1MTY3NTY5IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NDQwMjQ0fX19XX0_&Signature=OANx95gpZSivXjgSZmNnF-jGcYnlrugRQf0rlmrhSi6h2jiqboFb47VT~XIkHxu4Y~a6I-i5db3QCBluP9LQIe4ORZuczeWgHNRzHcIT0jofkXJuV3Bn6ZRXyc~eCFbHIKmemYMTdfR8sA5U7bIyxkHBFJsqEl2LvxtB5mDskCQJZ3A~BjFitMi0H8K9F3oYZMcXZyPODzN3TRVYmBSC5oRcucGwGybb4cfrunNruM8rAWa6OEoLGLahaG2XngR9tdu-jFsH4kidT4dEyyyWESNiEOqRI3LVD25m~aKJerY2~ub1Hw4bYMDRdlBB~CAI-zeFNmQ5hPLxecx1MPpbfA__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/JkwjMSXLsdYL3Jk1BiHTjdsF",
+        "provider": "Atlassian",
+        "dateObtained": "April 2022",
+        "skills": "Configuration Management, Atlassian Suite"
+      },
+      {
+        "name": "Using Confluence for Documentation and Knowledge Bases",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/98E5RGQoZqv4LndGLVQ3QeJn",
+        "provider": "Atlassian",
+        "dateObtained": "April 2022",
+        "skills": "Configuration Management, System Administration, Atlassian Suite"
+      },
+      {
+        "name": "SLAs in Jira Service Management",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "link": "https://university.atlassian.com/student/award/jMRMt3MjTAnktEZmJ5nRh5ZB",
+        "provider": "Atlassian",
+        "dateObtained": "March 2022",
+        "skills": "Jira Administration, Configuration Management, Service Desk Management, Requirements Analysis, Atlassian Suite, Jira Service Management (JSM)"
+      },
+      {
         "name": "Configuring and Troubleshooting Permissions in Jira",
-        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
         "link": "https://drive.google.com/file/d/1vlT8QAwiXfa1vix8682OSxr8nmDhqRH7/view",
         "provider": "Atlassian",
         "dateObtained": "May 2020",
@@ -477,7 +549,7 @@
       },
       {
         "name": "Customizing Jira Workflows",
-        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
         "link": "https://drive.google.com/file/d/1TgZa8aAhz6Vo0Aoc4BVWoaIEZMHQrz4Q/view",
         "provider": "Atlassian",
         "dateObtained": "May 2020",
@@ -485,7 +557,7 @@
       },
       {
         "name": "Email In Jira",
-        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
         "link": "https://drive.google.com/file/d/1Bbyv9jw5UkYISI8yqHyrjzJwlpR6JjU8/view",
         "provider": "Atlassian",
         "dateObtained": "May 2020",
@@ -493,7 +565,7 @@
       },
       {
         "name": "Is Your Jira Instance Secure?",
-        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
         "link": "https://drive.google.com/file/d/1olYh7JHtqdva7HYQZdOmyeh7VLXsWa_f/view",
         "provider": "Atlassian",
         "dateObtained": "May 2020",
@@ -501,7 +573,7 @@
       },
       {
         "name": "Issue Security in Jira",
-        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
         "link": "https://drive.google.com/file/d/188PCeoSljffU1mAOT8b3vVn6IWQF4e4O/view",
         "provider": "Atlassian",
         "dateObtained": "May 2020",
@@ -509,7 +581,7 @@
       },
       {
         "name": "Jira Automation",
-        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
         "link": "https://drive.google.com/file/d/1eiZW6183C6VStIWyLBUa3mMNAohCmG-x/view",
         "provider": "Atlassian",
         "dateObtained": "May 2020",
@@ -517,7 +589,7 @@
       },
       {
         "name": "Managing the User Lifecycle in Jira",
-        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28795/original/uni-completioncertificate-badge.png?1742874838&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5NS9vcmlnaW5hbC91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODc0ODM4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTEzNjIyfX19XX0_&Signature=fx~RWiYvTUXP2RcHIFM7zLTiEa3P9Mu533ddV7EoHhWljGXyZKvZYiq9r2p1cKQPiCofWzWdMHDaDIRz8eda7k68FqFSEbEvt-cAGEkD-4MPGluMqBTq-ncrMYRt86czTDTPmzM1ZrR8wf1BeoNvufat~skasU0JEAO8~o4VXqB0g8kuBthl2pOv0Z1I1~FX0QeH1At3przduqlE5eEqEgAHtWcdjEXrEINz3uvXVo8spU7BcTEyRxw55ioWNctkXwDH3NAM7bGeEHz3VEj3hsxdJGNWj~IC1zBkOSy23GHn~tDHKtsn-8O6XmiLad4-XG4tJ2tEA~UeszYwDrJEWw__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
+        "imageUrl": "https://cdn.exceedlms.com/uploads/certifications/badges/28793/large/uni-completioncertificate-badge.png?1742872372&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODc5My9sYXJnZS91bmktY29tcGxldGlvbmNlcnRpZmljYXRlLWJhZGdlLnBuZz8xNzQyODcyMzcyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY0NTE0OTc1fX19XX0_&Signature=QTBgpo06rarY0FNvBpdlKzlc8FO6MATD2dOYAOZhAO55UVT0kEg0mET8bDJcAfs0tIWWk4X0gT3x4G~N2umy3CwnHSRGj~veMAKLrksghdKGOfGR2JBfpkD8cghlc36hUoOoGM7WiLVehgJHWrLcKkURMS5ggQU1nDMvBtMx5o7ZicnadCOTGj3fbF-63U4iFsrOAddAT8C1UzRZMYXQcByzZFT4Nu6CQyg36mfhGzBqnSlFmJv1Ctt77qFf0C8rtGKa5CZ6NA0H4Uo1bqr1MgyqFNbVWpcL~uWxFuyvqSlEoTOB8ss8LkFTtnwn7Jom1WT1Mk4HwxWEuCoiEC7Xeg__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA",
         "link": "https://drive.google.com/file/d/10rF1_IcriPuNf-3suy3daQ_cq1wubZgD/view",
         "provider": "Atlassian",
         "dateObtained": "May 2020",
