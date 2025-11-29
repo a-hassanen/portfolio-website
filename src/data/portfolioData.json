@@ -96,7 +96,21 @@
       "HTML",
       "CSS",
       "JavaScript",
-      "Application Security", "Cross-site scripting (XSS)", "Kali Linux", "OpenSSL", "SonarQube", "SQL Injection", "Flask", "Nmap", "Open Web Application Security Project (OWASP) ZAP", "Snyk"
+      "Application Security",
+      "Cross-site scripting (XSS)",
+      "Kali Linux",
+      "OpenSSL",
+      "SonarQube",
+      "SQL Injection",
+      "Flask",
+      "Nmap",
+      "Open Web Application Security Project (OWASP) ZAP",
+      "Snyk",
+      "Bash (Unix Shell)",
+      "Python (Programming Language)",
+      "Computer Programming",
+      "Scripting",
+      "Python Programming"
     ],
     "Cloud Platforms": [
       "Amazon Web Services (AWS)",
@@ -104,16 +118,22 @@
       "GCP (Google Cloud Platform)",
       "Azure (Microsoft Azure)",
       "Multi-Cloud Management",
-      "Cloud Migration"
+      "Cloud Migration",
+      "IBM Cloud",
+      "Cloud Computing IaaS"
     ],
     "Infrastructure as Code (IaC)": [
       "Terraform",
-      "CloudFormation"
+      "CloudFormation",
+      "Configuration Management"
     ],
     "Containerization & Orchestration": [
       "Kubernetes (EKS, AKS)",
       "Docker",
-      "Containerization"
+      "Containerization",
+      "Kubernetes/OpenShift",
+      "Openshift",
+      "Container"
     ],
     "DevOps & CI/CD Tools": [
       "DevOps",
@@ -128,7 +148,39 @@
       "System Administration",
       "Advanced JQL",
       "Agile Software Development",
-      "Change Management"
+      "Change Management",
+      "Continuous Integration and Continuous Delivery (CI/CD)",
+      "Jira Administration",
+      "Automation",
+      "Atlassian Suite",
+      "GitOps Pipeline",
+      "OpenShift Pipelines",
+      "Tekton",
+      "CI/CD Pipeline Automation",
+      "Flask-Talisman",
+      "GitHub Actions",
+      "Nosetests",
+      "ZenHub Kanban Board",
+      "Git",
+      "GitHub",
+      "Gitlab",
+      "Git Lab Branch Workflow",
+      "Merge",
+      "Distributed Version Control",
+      "Pyunit",
+      "Istio",
+      "Prometheus (Software)",
+      "Grafana",
+      "Command-Line Interface",
+      "Docker (Software)",
+      "Development Environment",
+      "Application Deployment",
+      "Jupyter",
+      "Service Desk Management",
+      "Enterprise Integration",
+      "Jira Service Management (JSM)",
+      "LDAP Administration",
+      "IAM"
     ],
     "Methodologies & Management": [
       "ITIL Frameworks",
@@ -138,20 +190,111 @@
       "Incident Management",
       "Customer Service",
       "Problem Solving",
-      "Strategic Planning"
+      "Strategic Planning",
+      "Scrum",
+      "Requirements Analysis",
+      "Test-Driven Development",
+      "Project Management"
     ],
     "Web Development & Design": [
       "Web Development",
       "HTML",
       "CSS",
-      "JavaScript"
+      "JavaScript",
+      "Cross-origin Resource Sharing (CORS) Policies",
+      "HTML5",
+      "Web",
+      "Front-end Development",
+      "Front-end Frameworks"
     ],
     "Soft Skills": [
       "Team Leadership",
       "Leadership",
       "Mentoring",
       "Communication",
-      "Teamwork"
+      "Teamwork",
+      "Collaboration",
+      "Social Coding"
+    ],
+    "AI & Data Science": [
+      "Data Science",
+      "Artificial Intelligence",
+      "AI/ML Operations",
+      "Web Scraping",
+      "Data Analysis",
+      "Data Manipulation",
+      "Data Processing",
+      "Numpy",
+      "Data Import/Export",
+      "Pandas (Python Package)",
+      "Data Management"
+    ],
+    "Security & Monitoring": [
+      "Security Monitoring",
+      "Continuous Monitoring",
+      "Application Performance Management"
+    ],
+    "API & Backend Development": [
+      "REST APIs",
+      "Code Repositories",
+      "REST",
+      "GraphQL",
+      "Microservices",
+      "Postman",
+      "cURL",
+      "Serverless Computing",
+      "Swagger",
+      "Server Side",
+      "Restful API",
+      "Distributed Computing",
+      "Scalability",
+      "Open Source"
+    ],
+    "Software Quality & Testing": [
+      "Software Testing",
+      "Test Cases",
+      "Assertions",
+      "Automated testing",
+      "Factories",
+      "Fakes",
+      "Mocks",
+      "Test Coverage",
+      "Test Fixtures",
+      "Unit Testing",
+      "Code Review"
+    ],
+    "Front-End Framework": [
+      "React (Web Framework)",
+      "Application States",
+      "Class Components",
+      "Component Composition",
+      "Component Lifecycles",
+      "Component States",
+      "CRA",
+      "Custom Hooks",
+      "Data Binding",
+      "Fetch",
+      "Forms",
+      "Function Components",
+      "Hooks",
+      "JSX",
+      "Props",
+      "React",
+      "React ToolKit",
+      "Redux",
+      "saga",
+      "Side Effects",
+      "Thunk",
+      "UseEffect Hook",
+      "User Interfaces",
+      "UseState Hook",
+      "Virtual Dom",
+      "Vite"
+    ],
+    "General Principles": [
+      "Software Development",
+      "Programming Principles",
+      "Web Applications"
     ]
   },
   "projects": [
