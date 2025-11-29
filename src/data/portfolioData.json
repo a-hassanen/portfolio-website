@@ -310,14 +310,22 @@
     ]
   },
   "badges": {
-    "Cloud, DevOps, & IT Service Management": [
+    "Cloud, & IT Service Management": [
       {
         "name": "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
         "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
-        "link": "https://www.skills.google/profile/badges",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/11287513",
         "provider": "Google",
-        "dateObtained": "November 2025",
+        "dateObtained": "September 2024",
         "skills": "Cloud Computing, GCP (Google Cloud Platform)"
+      },
+      {
+        "name": "Introduction to Agile Development and Scrum",
+        "imageUrl": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/c0/87a10033a311e892619b85c6fd62bb/IBM-200x48.png?auto=format%2Ccompress&dpr=2&h=45",
+        "link": "https://www.coursera.org/account/accomplishments/verify/5ARGP43X0YZ3",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Scrum, Agile Methodologies, Project Management, Continuous Integration and Continuous Delivery (CI/CD), Strategic Planning, ITIL Certified, JavaScript, Teamwork, Requirements Analysis"
       },
       {
         "name": "Scrum Certification + Scrum Master + Agile Scrum Training",
@@ -334,54 +342,6 @@
         "provider": "EC-Council",
         "dateObtained": "November 2025",
         "skills": "Jira Administration, Automation, Atlassian Suite, Project Management, Jira Service Management (JSM)"
-      },
-      {
-        "name": "Google Cloud Computing Foundations: Cloud Infrastructure",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
-        "link": "https://www.skills.google/profile/badges",
-        "provider": "Google",
-        "dateObtained": "November 2025",
-        "skills": "Cloud Computing, Infrastructure as Code (IaC), GCP (Google Cloud Platform)"
-      },
-      {
-        "name": "Google Cloud Computing Foundations: Networking and Security in Google Cloud",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
-        "link": "https://www.skills.google/profile/badges",
-        "provider": "Google",
-        "dateObtained": "November 2025",
-        "skills": "Cloud Computing, GCP (Google Cloud Platform), Security"
-      },
-      {
-        "name": "Google Cloud Computing Foundations: Storage and Databases in Google Cloud",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
-        "link": "https://www.skills.google/profile/badges",
-        "provider": "Google",
-        "dateObtained": "November 2025",
-        "skills": "Cloud Computing, GCP (Google Cloud Platform)"
-      },
-      {
-        "name": "Google IT Support: Operating Systems and You",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
-        "link": "https://www.skills.google/profile/badges",
-        "provider": "Google",
-        "dateObtained": "November 2025",
-        "skills": "System Administration, Linux"
-      },
-      {
-        "name": "Google IT Support Certificate",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
-        "link": "https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-        "provider": "Google Career Certificates",
-        "dateObtained": "October 31, 2025",
-        "skills": ""
-      },
-      {
-        "name": "Google IT Support: Technical Support Fundamentals",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
-        "link": "https://www.skills.google/profile/badges",
-        "provider": "Google",
-        "dateObtained": "November 2025",
-        "skills": "IT Service Management (ITSM), Customer Service"
       },
       {
         "name": "AWS Certified Cloud Practitioner",
@@ -457,17 +417,25 @@
         "provider": "IBM",
         "dateObtained": "November 2025",
         "skills": "Continuous Integration and Continuous Delivery (CI/CD), Python (Programming Language), Shell Scripting, JavaScript, Bash, DevOps, Scripting"
+      },
+      {
+        "name": "Monitoring and Observability for Development and DevOps",
+        "imageUrl": "https://images.credly.com/size/680x680/images/63ed678c-4f4d-435d-b3af-e8d0c94627a2/image.png",
+        "link": "https://www.coursera.org/account/accomplishments/verify/TXHN7XFC461G",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Kubernetes, Continuous Monitoring, Data Management, Cloud-Native Computing, Application Performance Management, Distributed Computing, Microservices, Containerization, Prometheus (Software), Grafana, DevOps, Docker (Software)"      
       }
     ],
 
-    "Cloud, Containers & Microservices": [
+    "Containers & Microservices": [
       {
         "name": "Containers & Kubernetes Essentials",
         "imageUrl": "https://images.credly.com/size/680x680/images/fadae326-142d-4855-a42f-f0b07e65eac1/image.png",
         "link": "https://www.credly.com/badges/78129c3a-ce38-4219-bc71-8335bc46eaa1/public_url",
         "provider": "IBM",
         "dateObtained": "November 2025",
-        "skills": "IBM Cloud, Kubernetes, Cloud, Container"
+        "skills": "IBM Cloud, Kubernetes, Cloud, Command-Line Interface, Containerization, Kubernetes, Cloud-Native Computing, DevOps, Docker (Software), Openshift, CI/CD, Istio, Application Deployment, Scalability, Microservices"
       },
       {
         "name": "Application Development using Microservices and Serverless",
@@ -480,6 +448,38 @@
     ],
 
     "Programming & AI Development": [
+      {
+        "name": "Machine Learning Operations (MLOps) for Generative AI",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/19406783",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform), AI/ML Operations"
+      },
+      {
+        "name": "Model Armor: Securing AI Deployments",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/19411814",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform), AI/ML Operations"
+      },
+      {
+        "name": "Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/19410429",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform), AI/ML Operations"
+      },
+      {
+        "name": "Introduction to Security in the World of AI",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1766016000&v=beta&t=fR_FqAATCDGeBCo8yxoQR6JtKXDz3Ws5h7gwSacBtGE",
+        "link": "https://www.skills.google/public_profiles/17b0d35d-03a5-410e-8609-530db49f929c/badges/19412087",
+        "provider": "Google",
+        "dateObtained": "October 2025",
+        "skills": "Cloud Computing, GCP (Google Cloud Platform), AI/ML Operations"
+      },
       {
         "name": "Python Project for AI and Application Development",
         "imageUrl": "https://images.credly.com/size/680x680/images/33ed2910-9750-4613-aa2a-590e845c6edb/image.png",
@@ -495,6 +495,14 @@
         "provider": "IBM",
         "dateObtained": "November 2025",
         "skills": "Development Environment, Server Side, Flask (Web Framework), IBM Cloud, Unit Testing, Restful API, Programming Principles, Code Review, Web Applications, Application Deployment, Artificial Intelligence, Python Programming"
+      },
+      {
+        "name": "Python for Data Science, AI & Development",
+        "imageUrl": "https://images.credly.com/size/680x680/images/63ed678c-4f4d-435d-b3af-e8d0c94627a2/image.png",
+        "link": "https://www.coursera.org/account/accomplishments/verify/WBXS85Z3OSM3",
+        "provider": "IBM",
+        "dateObtained": "November 2025",
+        "skills": "Web Scraping, Data Analysis, Computer Programming, Data Manipulation, Data Processing, Programming Principles, Numpy, Data Import/Export, Scripting, Automation, Jupyter, Pandas (Python Package)"
       }
     ],
 
@@ -596,10 +604,6 @@
         "skills": "Jira Administration, LDAP Administration, System Administration, Atlassian Suite, IAM"
       }
     ],
-
-    "Cyber Security": [
-    ],
-
     "Web Development & Design": [
       {
         "name": "Introduction to HTML, CSS, & JavaScript",
