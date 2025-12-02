@@ -228,4 +228,12 @@
     .details-list {
       font-size: 0.9rem; /* Slightly smaller text for lists */
     }
+
+    .fade-in-section {
+        /* Reset the initial state for phones */
+        opacity: 1;
+        transform: none;
+        /* Disable the transition to prevent the 'pop-in' effect */
+        transition: none;
+       }
   }
